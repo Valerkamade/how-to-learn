@@ -93,7 +93,7 @@
 /* Стили колонок */
 .two-columns {
   display: flex;
-  max-width: 80%;
+  width: 80%;
   margin: 100px auto;
   justify-content: space-between;
 }
@@ -101,6 +101,7 @@
 /* Стили заголовка описания */
 .two-columns__brief {
   max-width: 175px;
+  width: 100%;
   color: #2f80ed;
   margin: 0;
 
@@ -142,9 +143,9 @@
   margin: 100px 0;
 }
 
-/* Стили заголовка секуии */
+/* Стили заголовка секции */
 .section-title {
-  width: 60%;
+  max-width: 60%;
   margin: 0 0 20px;
   text-align: center;
 
@@ -155,7 +156,7 @@
 
 /* Стили подзаголовка секции */
 .section-subtitle {
-  width: 60%;
+  max-width: 60%;
   margin: 0;
   text-align: center;
 
@@ -215,19 +216,15 @@
 
   position: relative;
 
-  height: 890px;
+  min-height: 890px;
 
-  background-color: #f2f2f2;
-  background-image: url('../images/feynman.png');
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 867px 637px;
+  background: #f2f2f2 url('../images/feynman.png') left bottom / 867px 637px no-repeat;
 }
 
 /* Стили заголовка */
 .feynman__title {
   margin: 100px auto 70px;
-  width: 648px;
+  max-width: 648px;
   text-align: center;
 
   line-height: 1.15;
@@ -290,9 +287,7 @@
 /* Стили треугольника */
 .kaufman__triangle {
   position: absolute;
-  background-image: url('../images/kaufman-triangle.svg');
-  background-size: 877px 877px;
-  background-repeat: no-repeat;
+  background: url('../images/kaufman-triangle.svg') right / 877px 877px no-repeat;
 
   width: 877px;
   height: 877px;
