@@ -1,0 +1,11 @@
+.video__iframes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  margin: 0 auto;
+
+  list-style: none;
+
+  transform: translateY(50px);
+}
