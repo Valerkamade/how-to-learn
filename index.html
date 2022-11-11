@@ -24,8 +24,9 @@
       </header>
 
       <main class="content">
-        <article class="description page__description">
-          <div class="two-columns">
+        <section class="description page__description"
+          aria-label="Интересное об обучении">
+          <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
 
             <div class="two-columns__main-text">
@@ -46,8 +47,8 @@
                 техники применяются на примере обучения в Практикуме.
               </p>
             </div>
-          </div>
-        </article>
+          </article>
+        </section>
 
         <section class="techniques page__techniques">
           <h2 class="section-title">Техники обучения</h2>
@@ -57,7 +58,7 @@
               <h3 class="cards__title">Два вида внимания</h3>
               <img class="cards__image"
                 src="./images/cards-attention.png"
-                alt="">
+                alt="Книга '101 эссе, которые изменят ваше мышление'.">
               <p class="cards__description">Глубокие знания<br>
                 возникают, если<br>
                 чередовать сфокусированное и рассеянное мышление.</p>
@@ -66,7 +67,7 @@
               <h3 class="cards__title">Recall</h3>
               <img class="cards__image"
                 src="./images/cards-recall.png"
-                alt="">
+                alt="Статуя юноши.">
               <p class="cards__description">Вспоминайте изученное — это позволит
                 соединить разрозненные порции памяти.</p>
             </li>
@@ -74,7 +75,7 @@
               <h3 class="cards__title">Интерливинг</h3>
               <img class="cards__image"
                 src="./images/cards-interliving.png"
-                alt="">
+                alt="Станция метро Олкулус, Нью-Йорк.">
               <p class="cards__description">Изучайте несколько<br>
                 навыков одновременно,<br>
                 они обогащают друг друга.</p>
@@ -83,15 +84,16 @@
               <h3 class="cards__title">Вопросы</h3>
               <img class="cards__image"
                 src="./images/cards-question.png"
-                alt="">
+                alt="Человек в четырех стенах с проемами.">
               <p class="cards__description">Слушая преподавателя, придумывайте
                 хороший вопрос, который вас действительно волнует.</p>
             </li>
             <li class="cards__item">
               <h3 class="cards__title">Иллюзия компетентности</h3>
+
               <img class="cards__image"
                 src="./images/cards-competence.png"
-                alt="">
+                alt="Стопка книг.">
               <p class="cards__description">Повторите про себя, запишите,
                 расскажите другу: вам только кажется, что вы владеете новой
                 темой.</p>
@@ -120,8 +122,8 @@
           </ul>
         </section>
 
-        <article class="oakley">
-          <div class="two-columns">
+        <section class="oakley" aria-label="История об обучении">
+          <article class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
 
             <div class="two-columns__main-text">
@@ -136,13 +138,17 @@
                 взгляда.
               </p>
             </div>
-          </div>
-        </article>
+          </article>
+        </section>
 
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a class="link feynman__link" href="#">Подробнее &rarr;</a>
+          <a class="link feynman__link"
+            href="#"
+            target="_blank">
+            Подробнее &rarr;
+          </a>
         </section>
 
         <section class="digits page__digist">
