@@ -1,5 +1,7 @@
 .footer__social-icon {
-    width: 16px;
-    height: 16px;
-    align-self: center;
-  }
+  width: 16px;
+  height: 16px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}

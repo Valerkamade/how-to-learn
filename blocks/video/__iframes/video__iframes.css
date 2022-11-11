@@ -1,5 +1,7 @@
 .video__iframes {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 
@@ -7,6 +9,7 @@
   padding: 0;
 
   list-style: none;
-
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
   transform: translateY(50px);
 }

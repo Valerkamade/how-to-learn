@@ -1,11 +1,15 @@
 .footer__column-link {
-    color: white;
-    display: flex;
-    column-gap: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
 
-    text-decoration: none;
-  
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-  }
+  text-decoration: none;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
