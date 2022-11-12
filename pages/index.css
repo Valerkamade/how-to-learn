@@ -24,8 +24,7 @@
 @import url(../blocks/resources/resources.css);
 
 /* Импорт Элементов */
-@import url(../blocks/page/__description/page__description.css);
-@import url(../blocks/page/__digits/page__digist.css);
+@import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/page/__techniques/page__techniques.css);
 @import url(../blocks/page/__video/page__video.css);
 @import url(../blocks/page/__resources/pagr__resources.css);
